@@ -3,7 +3,7 @@ import Spinner from "../components/Spinner";
 import Product from "../components/Product"
 
 const Home = () => {
-  const API_URL = "https://api.escuelajs.co/api/v1/products";
+  const API_URL = "https://fakestoreapi.com/products";
   const [loading, setLoading] = useState(false);
   const [posts, setPosts] = useState([]);
 
